@@ -27,6 +27,18 @@
         }
       ]
     },
+    "body-regex-filter": {
+      "anyOf": [
+        {
+          "type": "string",
+          "enum": [""]
+        },
+        {
+          "default": "",
+          "type": "string"
+        }
+      ]
+    },
     "no-changes-template": {
       "default": "* No changes",
       "type": "string"
