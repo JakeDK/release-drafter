@@ -32,8 +32,6 @@ const invalidConfigs = [
   [{ 'change-template': null }, 'must be a string'],
   [{ 'change-title-escapes': ['<_*'] }, 'must be a string'],
   [{ 'change-title-escapes': null }, 'must be a string'],
-  [{ 'body-regex-filter': ['/JIRA-[0-9]{1,4}/'] }, 'must be a string'],
-  [{ 'body-regex-filter': null }, 'must be a string'],
   [{ replacers: [{ search: 123 }] }, 'must be a regexp or a string'],
   [{ replacers: [{ search: '123' }] }, 'is required'],
   [
